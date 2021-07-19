@@ -1,7 +1,63 @@
-/*pag1*/
 
 .container{
     display: flex;
-    flex-flow: row ;
+    flex-flow: row  ;
     justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container p{
+    padding: 10px
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    width: 400px;
+
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-family:Arial;    
+}
+
+#menu ul li{ 
+    display: inline;
+    padding: 1%;
+    border-radius: 50% ;
+    background-color: ivory;
+    border: 1px solid ivory;
+    margin-left: 20px;
+}
+
+#menu{
+    text-align: center;
+}
+
+#menu ul li a:hover{
+    display: inline;
+    padding: 1%;
+    border-radius: 50% ;
+    background-color: rgb(214, 214, 214);
+    border: 1px solid rgb(214, 214, 214);
+    
+}
+.br-50{
+    border-radius: 50%;
+    
+}
+a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
 }
