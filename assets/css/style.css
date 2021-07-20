@@ -22,13 +22,33 @@
 
 }
 
+.frame{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
 body{
     background-color: aliceblue;
 }
 
 h1{
     text-align: center;
-    font-family:Arial;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+#menu{
+    
+    text-align: center;
+    background: rgb(161, 252, 222);
+    padding: 3px;
+    margin: -16px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 15%);
 }
 
 #menu ul li{ 
@@ -39,25 +59,45 @@ h1{
     border: 1px solid ivory;
     margin-left: 20px;
 }
-
-#menu{
-    text-align: center;
-}
-
 #menu ul li a:hover{
     display: inline;
     padding: 1%;
-    border-radius: 50% ;
-    background-color: rgb(214, 214, 214);
-    border: 1px solid rgb(214, 214, 214);
+    border-radius: 100%;
+    background-color:  rgb(250, 224, 107);
+    border: 1px solid rgb(250, 224, 107);
     
 }
 .br-50{
-    border-radius: 50%;
+    border-radius: 25%;
+    border: 1px solid;
     
 }
 a{
     font-size: 24px;
     color: black;
     text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.mg-tp{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+p{
+    text-align: center;
+    font-family:courier,arial,helvetica;
+
+}
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+    padding: 5px 15px ;
+}
+
+.container #dead{
+   width: 100%;
+   height: 100%;
+    
 }
